@@ -29,6 +29,9 @@ roo = Kangaroo('Roo')
 kanga.put_in_pouch('wallet')
 kanga.put_in_pouch('car keys')
 roo.put_in_pouch(roo)
+roo.put_in_pouch('new car keys')
+roo.put_in_pouch('new function call')
+
 
 print(kanga)
 print(roo)
