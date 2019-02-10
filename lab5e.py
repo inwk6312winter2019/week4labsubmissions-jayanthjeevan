@@ -4,8 +4,8 @@ class Point(object):
         self.y = y
 
     def print_point(self):
-        print "x =", self.x, ","
-        print "y =", self.y
+        print("x =", self.x)
+        print("y =", self.y)
 
 point = Point()
 point.print_point()
